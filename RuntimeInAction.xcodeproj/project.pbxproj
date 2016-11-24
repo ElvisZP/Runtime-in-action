@@ -16,6 +16,7 @@
 		6EF234631DE6982B006630CB /* RuntimeInActionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF234621DE6982B006630CB /* RuntimeInActionTests.m */; };
 		6EF2346E1DE6982B006630CB /* RuntimeInActionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2346D1DE6982B006630CB /* RuntimeInActionUITests.m */; };
 		6EF2347E1DE69886006630CB /* UIViewController+Statistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2347D1DE69886006630CB /* UIViewController+Statistics.m */; };
+		6EF2348D1DE6E8A6006630CB /* UIImageView+AssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF2348C1DE6E8A6006630CB /* UIImageView+AssociatedObjects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		6EF2346F1DE6982B006630CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EF2347C1DE69886006630CB /* UIViewController+Statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Statistics.h"; sourceTree = "<group>"; };
 		6EF2347D1DE69886006630CB /* UIViewController+Statistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Statistics.m"; sourceTree = "<group>"; };
+		6EF2348B1DE6E8A6006630CB /* UIImageView+AssociatedObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AssociatedObjects.h"; sourceTree = "<group>"; };
+		6EF2348C1DE6E8A6006630CB /* UIImageView+AssociatedObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AssociatedObjects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +152,8 @@
 			children = (
 				6EF2347C1DE69886006630CB /* UIViewController+Statistics.h */,
 				6EF2347D1DE69886006630CB /* UIViewController+Statistics.m */,
+				6EF2348B1DE6E8A6006630CB /* UIImageView+AssociatedObjects.h */,
+				6EF2348C1DE6E8A6006630CB /* UIImageView+AssociatedObjects.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EF2348D1DE6E8A6006630CB /* UIImageView+AssociatedObjects.m in Sources */,
 				6EF234501DE6982B006630CB /* ViewController.m in Sources */,
 				6EF2344D1DE6982B006630CB /* AppDelegate.m in Sources */,
 				6EF2344A1DE6982B006630CB /* main.m in Sources */,
@@ -521,6 +527,7 @@
 				6EF234741DE6982B006630CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EF234751DE6982B006630CB /* Build configuration list for PBXNativeTarget "RuntimeInActionTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +536,7 @@
 				6EF234771DE6982B006630CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EF234781DE6982B006630CB /* Build configuration list for PBXNativeTarget "RuntimeInActionUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +545,7 @@
 				6EF2347A1DE6982B006630CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

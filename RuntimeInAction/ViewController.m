@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIImageView+AssociatedObjects.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIImageView *imageView = [[UIImageView alloc]init];
+    imageView.imageUrl = @"http://xxxx.jpg";
+    NSLog(@"%@", imageView.imageUrl);
 }
 
 
